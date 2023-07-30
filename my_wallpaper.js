@@ -3,6 +3,7 @@ let rect_width  = 20;
 let rect_height = 20;
 let backgroundcirc_size = 4;
 let circ_position = 150;
+let flower_size = 90;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -53,14 +54,21 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
 
   stroke(255, 140, 148);
   strokeWeight(0);
-  fill(255, 255, 255); //white
+  
+  if (flower_size == 90){
+    fill(255,255,255)//white
+  }
+  else {
+    fill(157, 105, 240)//purple 
+  }
+
   ellipse(0, 0, 80,30); // petal
-  ellipse(0, 0, 25,90); // petal
+  ellipse(0, 0, 25,flower_size); // petal
 
   rotate(45);
-  ellipse(0, 0, 25,90); //petal
+  ellipse(0, 0, 25,flower_size); //petal
   rotate(90);
-  ellipse(0, 0, 25,90); //petal
+  ellipse(0, 0, 25,flower_size); //petal
   pop();
   fill(252, 177, 0); //yellow
 
@@ -68,5 +76,8 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
   stroke(255, 140, 148);
   strokeWeight(0);
   circle(100, 130,30); // middle
+ 
 
 }
+
+
