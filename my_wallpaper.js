@@ -25,15 +25,7 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
   angleMode(DEGREES);
   
 
-  fill(71, 71, 71); //grey
-  // circle(200, 200, 4);  
-  // circle(220, 200, 4);   
-  // circle(240, 200, 4);   
-  // circle(260, 200, 4);   
-  // circle(280, 200, 4);   
-  // circle(300, 200, 4);   
-  // circle(320, 200, 4);   
-  // circle(340, 200, 4);   
+  fill(71, 71, 71); //grey  
   circle(360, circ_position, backgroundcirc_size);   
   circle(380, circ_position, backgroundcirc_size);   
   circle(400, circ_position, backgroundcirc_size); 
