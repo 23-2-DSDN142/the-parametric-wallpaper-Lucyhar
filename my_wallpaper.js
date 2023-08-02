@@ -31,8 +31,9 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
   
   angleMode(DEGREES);
 
-
-  
+push();
+//translate();
+scale(1);
 fill('#ff9f1c' );//orange
 stroke('#FFFFFF'); //notshowing
 strokeWeight(0);
@@ -48,9 +49,29 @@ line( 50, 75, 50, 25) // middle vertical line
 line( orangeslice_yx, orangeslice_xy, orangeslice_xy, orangeslice_yx) // right diagonal line
 line( 75, 50, 25, 50) // middle horizontal line
 
+pop();
+
+//cherrys
+stroke('#008000'); //green stalk
+strokeWeight(2);
+line( 100, 90, 110, 60) // left stalk
+line( 110, 60, 125, 100) // right stalk
+
+fill('#D2042D' );//red
+stroke('#008000'); //not showing
+strokeWeight(0);
 
 circle(100, 100, 20); //cherrys
 circle(122, 100, 20); //cherrys
+
+push();
+fill('#008000' );//green leaf
+rotate(-30);
+ellipse(72, 122, 20,5); // leaf
+pop();
+
+
+
 
 
 
