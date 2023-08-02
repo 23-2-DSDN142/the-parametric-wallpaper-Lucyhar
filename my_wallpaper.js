@@ -6,6 +6,8 @@ let orange_posy = 50; //y position of the ornage
 let orangeslice_xy = 33; //first xy point of left diagonal line
 let orangeslice_yx = 67; // bottom xy point of left diagonal line
 
+let wholeorange_size = 0.5; // changes the size of the whole orange 
+
 
 
 
@@ -33,7 +35,7 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
 
 push();
 //translate();
-scale(1);
+scale(wholeorange_size);
 fill('#ff9f1c' );//orange
 stroke('#FFFFFF'); //notshowing
 strokeWeight(0);
