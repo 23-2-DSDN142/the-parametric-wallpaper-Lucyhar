@@ -102,8 +102,8 @@ pop();
 
 //strawberry
 
-stroke('#D2042D' );//red
-fill('#D2042D')
+stroke('#fc5a8d' );//pink
+fill('#fc5a8d')
 
 strokeWeight(10)
 strokeJoin(ROUND); //outline of strawberry
