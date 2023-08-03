@@ -10,9 +10,9 @@ let orangeone_size = 0.5; // changes the size of the whole orange
 let orangetwo_size = 0.9; 
 
 
-let strawberry_posx = 10; // changes x position of strawberry on page 
-let strawberry_posy = strawberry_posx +90; // changes y position of strawberry on page relative to the x position 
-let strawberry_size = 0.7; //changes size of whole strawberry
+let strawberry_posx = -50; // changes x position of strawberry on page 
+let strawberry_posy = strawberry_posx + 20; // changes y position of strawberry on page relative to the x position 
+let strawberry_size = 1; //changes size of whole strawberry
 
 
 
@@ -20,7 +20,7 @@ let strawberry_size = 0.7; //changes size of whole strawberry
 
 
 function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode( GRID_WALLPAPER);
+  pWallpaper.output_mode(GRID_WALLPAPER);
   pWallpaper.resolution(FIT_TO_SCREEN);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
@@ -80,7 +80,31 @@ line( 82, 55, 28, 55) // middle horizontal line
 
 pop();
 
-//cherrys
+//cherrys 1
+push();
+translate (-60,60);
+stroke('#008000'); //green stalk
+strokeWeight(2);
+line( 100, 90, 110, 60) // left stalk
+line( 110, 60, 125, 100) // right stalk
+
+fill('#D2042D' );//red
+stroke('#008000'); //not showing
+strokeWeight(0);
+
+circle(100, 100, 20); //cherrys
+circle(122, 100, 20); //cherrys
+
+
+fill('#008000' );//green leaf
+rotate(-30);
+ellipse(72, 122, 20,5); // leaf
+pop();
+
+
+//cherrys 2
+translate (100,40);
+scale(0.6);
 stroke('#008000'); //green stalk
 strokeWeight(2);
 line( 100, 90, 110, 60) // left stalk
@@ -100,10 +124,12 @@ ellipse(72, 122, 20,5); // leaf
 pop();
 
 
+
 //strawberry
 
-stroke('#fc5a8d' );//pink
-fill('#fc5a8d')
+push()
+stroke('#f21d52' );//pink
+fill('#f21d52')
 
 strokeWeight(10)
 strokeJoin(ROUND); //outline of strawberry
@@ -120,11 +146,10 @@ vertex(55, 75);
 
 endShape(CLOSE);
 
-push();
 translate (55,10);
 scale(0.6);
-stroke('#008000' );//green leaves 
-fill('#008000')
+stroke('#123613' );//green leaves 
+fill('#123613')
 
 strokeWeight(0)
 fill(9, 105, 9); //green
