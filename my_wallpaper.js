@@ -20,7 +20,7 @@ let strawberry_size = 1; //changes size of whole strawberry
 
 
 function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.output_mode(DEVELOP_GLYPH);
   pWallpaper.resolution(FIT_TO_SCREEN);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
@@ -208,6 +208,25 @@ pop();
 
 pop();
 
+fill('#FFFFFF') 
+
+rotate(-80);
+ellipse(-70, -60, 10,5); // watermelon seeds
+
+rotate(-80);
+ellipse(70, -90, 10,5); // watermelon seeds
+
+rotate(-80);
+ellipse(100, 20, 10,5); // watermelon seeds
+
+rotate(-80);
+ellipse(-20, 130, 10,5); // watermelon seeds
+
+rotate(-80);
+ellipse(-110, 5, 10,5); // watermelon seeds
+
+rotate(-80);
+ellipse(-10, -140, 10,5); // watermelon seeds
 
 
 
