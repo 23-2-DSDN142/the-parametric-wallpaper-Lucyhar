@@ -20,7 +20,7 @@ let strawberry_size = 1; //changes size of whole strawberry
 
 
 function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(DEVELOP_GLYPH);
+  pWallpaper.output_mode(GRID_WALLPAPER);
   pWallpaper.resolution(FIT_TO_SCREEN);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
@@ -31,7 +31,7 @@ function setup_wallpaper(pWallpaper) {
 }
 
 function wallpaper_background() {
-  background(200, 232, 255); //light honeydew green colour
+  background(200, 232, 255); //light blue  colour
 }
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
@@ -172,6 +172,37 @@ ellipse(30, 0, 45,12); // leaf of strawberry
 
 circle(3, 5, 20); //circle to join leaves of strawberry
 
+
+fill(0); //black seeds
+rotate(60);
+ellipse(50, -15, 8,3); // strawberry seeds
+
+rotate(0);
+ellipse(50, 15, 8,3); // strawberry seeds
+
+rotate(0);
+ellipse(70, 20, 8,3); // strawberry seeds
+
+rotate(0);
+ellipse(70, 5, 8,3); // strawberry seeds
+
+rotate(0);
+ellipse(70, -10, 8,3); // strawberry seeds
+
+rotate(0);
+ellipse(70, -20, 8,3); // strawberry seeds
+
+rotate(0);
+ellipse(90, 10, 8,3); // strawberry seeds
+
+rotate(0);
+ellipse(90, 0, 8,3); // strawberry seeds
+
+rotate(0);
+ellipse(90, -10, 8,3); // strawberry seeds
+
+rotate(0);
+ellipse(110, 0, 8,3); // strawberry seeds
 
 pop();
 
