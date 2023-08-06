@@ -176,6 +176,37 @@ circle(3, 5, 20); //circle to join leaves of strawberry
 pop();
 
 
+push();
+translate(20,10);
+scale(1);
+
+push();
+fill('#123613') 
+scale(2.4);
+translate (60,48);
+rotate(150);
+arc(80, 80, 50, 50, 185, PI + QUARTER_PI, PIE);
+pop();
+
+
+push();
+fill('#FFBBB4') 
+scale(2);
+translate (50,51);
+rotate(150);
+arc(80, 80, 50, 50, 185, PI + QUARTER_PI, PIE);
+pop();
+
+push();
+fill('#F35588') 
+scale(1.7);
+translate (40,55);
+rotate(150);
+arc(80, 80, 50, 50, 185, PI + QUARTER_PI, PIE);
+pop();
+
+
+pop();
 
 
 
