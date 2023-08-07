@@ -12,7 +12,7 @@ let orangetwo_size = 0.9;
 
 let strawberry_posx = -50; // changes x position of strawberry on page 
 let strawberry_posy = strawberry_posx + 20; // changes y position of strawberry on page relative to the x position 
-let strawberry_size = 1; //changes size of whole strawberry
+let strawberry_size = 2; //changes size of whole strawberry
 
 
 
@@ -21,7 +21,7 @@ let strawberry_size = 1; //changes size of whole strawberry
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.resolution(A3);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
@@ -31,7 +31,11 @@ function setup_wallpaper(pWallpaper) {
 }
 
 function wallpaper_background() {
-  background(200, 232, 255); //light blue  colour
+  //if statement background colour 
+if (strawberry_size == 1) { background(200, 232, 255); }
+else {background('#5C7AFF'); }
+
+  // background(200, 232, 255); //light blue  colour
 }
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
@@ -207,6 +211,9 @@ ellipse(110, 0, 8,3); // strawberry seeds
 pop();
 
 
+//watermelon 
+
+
 push();
 translate(20,10);
 scale(1);
@@ -258,10 +265,5 @@ ellipse(-110, 5, 10,5); // watermelon seeds
 
 rotate(-80);
 ellipse(-10, -140, 10,5); // watermelon seeds
-
-
-
-
-
 
 }
