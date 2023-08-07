@@ -6,29 +6,25 @@ let orange_posy = 50; //y position of the ornage
 let orangeslice_xy = 33; //first xy point of left diagonal line
 let orangeslice_yx = 67; // bottom xy point of left diagonal line
 
-let orangeone_size = 1.5; // changes the size of the whole orange 
-let orangetwo_size = 1; 
+let orangeone_size = 0.5; // changes the size of the whole orange 
+let orangetwo_size = 0.6; 
 
 
-let strawberry_posx = -50; // changes x position of strawberry on page 
-let strawberry_posy = strawberry_posx + 20; // changes y position of strawberry on page relative to the x position 
-let strawberry_size = 1; //changes size of whole strawberry
+let strawberry_posx = -80; // changes x position of strawberry on page 
+let strawberry_posy = strawberry_posx + 10; // changes y position of strawberry on page relative to the x position 
+let strawberry_size = 0.5; //changes size of whole strawberry
 
-let watermelon_size = 1; //changes size of whole watermelon
+let watermelon_size = 0.5; //changes size of whole watermelon
 
 let cherryOn = false;
 
-let othercherryOn = false;
+let othercherryOn = true;
 
-let strawberryOn = false;
+let strawberryOn = true;
 
 let watermelonOn = true;
 
-let orangeOn = false;
-
-
-
-
+let orangeOn = true;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);

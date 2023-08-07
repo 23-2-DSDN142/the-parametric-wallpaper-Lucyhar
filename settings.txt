@@ -109,47 +109,83 @@ function setup_wallpaper(pWallpaper) {
 Wallpaper 4:
 
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+let orange_size = 50; //changes the size of orange
+let orange_posx = 50; // x position of the orange 
+let orange_posy = 50; //y position of the ornage
+
+let orangeslice_xy = 33; //first xy point of left diagonal line
+let orangeslice_yx = 67; // bottom xy point of left diagonal line
+
+let orangeone_size = 0.5; // changes the size of the whole orange 
+let orangetwo_size = 0.9; 
+
+
+let strawberry_posx = -50; // changes x position of strawberry on page 
+let strawberry_posy = strawberry_posx + 20; // changes y position of strawberry on page relative to the x position 
+let strawberry_size = 1; //changes size of whole strawberry
+
+let watermelon_size = 1.3; //changes size of whole watermelon
+
+let cherryOn = true;
+
+let strawberryOn = true;
+
+let watermelonOn = true;
+
+let orangeOn = false;
+
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.resolution(NINE_PORTRAIT);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
 }
-
 /////////////////////////////////
 
 Wallpaper 5:
 
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+let orange_size = 50; //changes the size of orange
+let orange_posx = 50; // x position of the orange 
+let orange_posy = 50; //y position of the ornage
+
+let orangeslice_xy = 33; //first xy point of left diagonal line
+let orangeslice_yx = 67; // bottom xy point of left diagonal line
+
+let orangeone_size = 0.5; // changes the size of the whole orange 
+let orangetwo_size = 0.9; 
+
+
+let strawberry_posx = -50; // changes x position of strawberry on page 
+let strawberry_posy = strawberry_posx + 20; // changes y position of strawberry on page relative to the x position 
+let strawberry_size = 1; //changes size of whole strawberry
+
+let watermelon_size = 1.3; //changes size of whole watermelon
+
+let cherryOn = true;
+
+let strawberryOn = false;
+
+let watermelonOn = false;
+
+let orangeOn = false;
+
+
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.resolution(NINE_PORTRAIT);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
 }
 
 /////////////////////////////////
@@ -157,23 +193,41 @@ function setup_wallpaper(pWallpaper) {
 Wallpaper 6:
 
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+let orange_size = 50; //changes the size of orange
+let orange_posx = 50; // x position of the orange 
+let orange_posy = 50; //y position of the ornage
+
+let orangeslice_xy = 33; //first xy point of left diagonal line
+let orangeslice_yx = 67; // bottom xy point of left diagonal line
+
+let orangeone_size = 0.5; // changes the size of the whole orange 
+let orangetwo_size = 1; 
+
+
+let strawberry_posx = -50; // changes x position of strawberry on page 
+let strawberry_posy = strawberry_posx + 20; // changes y position of strawberry on page relative to the x position 
+let strawberry_size = 2; //changes size of whole strawberry
+
+let watermelon_size = 1.3; //changes size of whole watermelon
+
+let cherryOn = true;
+
+let strawberryOn = true;
+
+let watermelonOn = true;
+
+let orangeOn = true;
+
 
 function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
 }
 
 /////////////////////////////////
@@ -181,23 +235,41 @@ function setup_wallpaper(pWallpaper) {
 Wallpaper 7:
 
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+let orange_size = 50; //changes the size of orange
+let orange_posx = 50; // x position of the orange 
+let orange_posy = 50; //y position of the ornage
+
+let orangeslice_xy = 33; //first xy point of left diagonal line
+let orangeslice_yx = 67; // bottom xy point of left diagonal line
+
+let orangeone_size = 0.5; // changes the size of the whole orange 
+let orangetwo_size = 1; 
+
+
+let strawberry_posx = -50; // changes x position of strawberry on page 
+let strawberry_posy = strawberry_posx + 20; // changes y position of strawberry on page relative to the x position 
+let strawberry_size = 1; //changes size of whole strawberry
+
+let watermelon_size = 1; //changes size of whole watermelon
+
+let cherryOn = false;
+
+let strawberryOn = false;
+
+let watermelonOn = false;
+
+let orangeOn = true;
+
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.resolution(NINE_PORTRAIT);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
 }
 
 /////////////////////////////////
@@ -205,45 +277,84 @@ function setup_wallpaper(pWallpaper) {
 Wallpaper 8:
 
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+let orange_size = 50; //changes the size of orange
+let orange_posx = 50; // x position of the orange 
+let orange_posy = 50; //y position of the ornage
+
+let orangeslice_xy = 33; //first xy point of left diagonal line
+let orangeslice_yx = 67; // bottom xy point of left diagonal line
+
+let orangeone_size = 1.5; // changes the size of the whole orange 
+let orangetwo_size = 1; 
+
+
+let strawberry_posx = -50; // changes x position of strawberry on page 
+let strawberry_posy = strawberry_posx + 20; // changes y position of strawberry on page relative to the x position 
+let strawberry_size = 1; //changes size of whole strawberry
+
+let watermelon_size = 1; //changes size of whole watermelon
+
+let cherryOn = false;
+
+let othercherryOn = false;
+
+let strawberryOn = false;
+
+let watermelonOn = true;
+
+let orangeOn = false;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.resolution(NINE_PORTRAIT);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
 }
+
 
 /////////////////////////////////
 
 Wallpaper 9:
 
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+let orange_size = 50; //changes the size of orange
+let orange_posx = 50; // x position of the orange 
+let orange_posy = 50; //y position of the ornage
+
+let orangeslice_xy = 33; //first xy point of left diagonal line
+let orangeslice_yx = 67; // bottom xy point of left diagonal line
+
+let orangeone_size = 0.5; // changes the size of the whole orange 
+let orangetwo_size = 0.6; 
+
+
+let strawberry_posx = -80; // changes x position of strawberry on page 
+let strawberry_posy = strawberry_posx + 10; // changes y position of strawberry on page relative to the x position 
+let strawberry_size = 0.5; //changes size of whole strawberry
+
+let watermelon_size = 0.5; //changes size of whole watermelon
+
+let cherryOn = false;
+
+let othercherryOn = true;
+
+let strawberryOn = true;
+
+let watermelonOn = true;
+
+let orangeOn = true;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.resolution(NINE_PORTRAIT);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
 }
