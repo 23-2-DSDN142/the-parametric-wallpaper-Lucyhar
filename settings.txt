@@ -9,13 +9,113 @@ Your final settings.txt will look something like this when you are finished:
 Wallpaper 1:
 
 //your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
+let orange_size = 50; //changes the size of orange
+let orange_posx = 50; // x position of the orange 
+let orange_posy = 50; //y position of the ornage
+
+let orangeslice_xy = 33; //first xy point of left diagonal line
+let orangeslice_yx = 67; // bottom xy point of left diagonal line
+
+let orangeone_size = 0.5; // changes the size of the whole orange 
+let orangetwo_size = 0.9; 
+
+
+let strawberry_posx = -50; // changes x position of strawberry on page 
+let strawberry_posy = strawberry_posx + 20; // changes y position of strawberry on page relative to the x position 
+let strawberry_size = 1; //changes size of whole strawberry
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+
+/////////////////////////////////
+
+Wallpaper 2:
+
+//your parameter variables go here!
+let orange_size = 50; //changes the size of orange
+let orange_posx = 50; // x position of the orange 
+let orange_posy = 50; //y position of the ornage
+
+let orangeslice_xy = 33; //first xy point of left diagonal line
+let orangeslice_yx = 67; // bottom xy point of left diagonal line
+
+let orangeone_size = 5; // changes the size of the whole orange 
+let orangetwo_size = 0.9; 
+
+
+let strawberry_posx = -50; // changes x position of strawberry on page 
+let strawberry_posy = strawberry_posx + 20; // changes y position of strawberry on page relative to the x position 
+let strawberry_size = 1; //changes size of whole strawberry
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+/////////////////////////////////
+
+Wallpaper 3:
+
+//your parameter variables go here!
+let orange_size = 50; //changes the size of orange
+let orange_posx = 50; // x position of the orange 
+let orange_posy = 50; //y position of the ornage
+
+let orangeslice_xy = 33; //first xy point of left diagonal line
+let orangeslice_yx = 67; // bottom xy point of left diagonal line
+
+let orangeone_size = 0.5; // changes the size of the whole orange 
+let orangetwo_size = 0.9; 
+
+
+let strawberry_posx = -50; // changes x position of strawberry on page 
+let strawberry_posy = strawberry_posx + 20; // changes y position of strawberry on page relative to the x position 
+let strawberry_size = 1.5; //changes size of whole strawberry
+
+let cherryOn = false;
+
+let strawberryOn = false;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+/////////////////////////////////
+
+Wallpaper 4:
+
+//your parameter variables go here!
+let rect_width  = 10;
+let rect_height = 10;
+let paramter1 = 20;
+let paramter2 = false;
 let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+let paramter4 = 80; 
+let paramter5 = 30;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -25,12 +125,108 @@ function setup_wallpaper(pWallpaper) {
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 100;
   pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.row_offset  = 0;
 }
 
 /////////////////////////////////
 
-Wallpaper 2:
+Wallpaper 5:
+
+//your parameter variables go here!
+let rect_width  = 10;
+let rect_height = 10;
+let paramter1 = 20;
+let paramter2 = false;
+let paramter3 = 50; 
+let paramter4 = 80; 
+let paramter5 = 30;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+/////////////////////////////////
+
+Wallpaper 6:
+
+//your parameter variables go here!
+let rect_width  = 10;
+let rect_height = 10;
+let paramter1 = 20;
+let paramter2 = false;
+let paramter3 = 50; 
+let paramter4 = 80; 
+let paramter5 = 30;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+/////////////////////////////////
+
+Wallpaper 7:
+
+//your parameter variables go here!
+let rect_width  = 10;
+let rect_height = 10;
+let paramter1 = 20;
+let paramter2 = false;
+let paramter3 = 50; 
+let paramter4 = 80; 
+let paramter5 = 30;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+/////////////////////////////////
+
+Wallpaper 8:
+
+//your parameter variables go here!
+let rect_width  = 10;
+let rect_height = 10;
+let paramter1 = 20;
+let paramter2 = false;
+let paramter3 = 50; 
+let paramter4 = 80; 
+let paramter5 = 30;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 100;
+  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.row_offset  = 0;
+}
+
+/////////////////////////////////
+
+Wallpaper 9:
 
 //your parameter variables go here!
 let rect_width  = 10;
